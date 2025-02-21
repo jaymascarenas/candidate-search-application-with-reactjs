@@ -14,6 +14,6 @@ export default defineConfig({
     host: true,
     port: 3000,
     strictPort: true,
-    allowedHosts: ['candidate-search-des8.onrender.com']
+    allowedHosts: ['candidate-search-application-with-reactjs-0v9s.onrender.com']
   }
 });
