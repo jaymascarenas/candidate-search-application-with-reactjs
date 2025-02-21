@@ -9,4 +9,11 @@ export default defineConfig({
     port: 3000,
     host: '0.0.0.0'
   },
+  base: "/",
+  preview: {
+    host: true,
+    port: 3000,
+    strictPort: true,
+    allowedHosts: ['candidate-search-des8.onrender.com']
+  }
 });
